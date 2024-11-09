@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char x;
+	cout << "Введіть номер місяця x: ";
+	cin >> x;
+	switch (x)
+	{
+	case '-': cout << "Дефіс"; break;
+	case ',': cout << "Кома"; break;
+	case '?': cout << "Знак Питання"; break;
+	case '.': cout << "Крапка"; break;
+	case '!': cout << "Знак оклику"; break;
+	default: cout << "Не існує"; break;
+	}
+return 0;
+}
