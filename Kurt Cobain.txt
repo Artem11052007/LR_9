@@ -4,23 +4,39 @@ using namespace std;
 int main()
 {
     cout << setw(8) << right << showpos << 4 << noshowpos <<endl;
+<<<<<<< HEAD
     cout << setw(16) << internal << fixed << setprecision(2) << -67.09124 << endl;
     cout << setw(8) << right << showpos << 235 << noshowpos << endl;
     cout << hex << 2209 << endl;
     cout << setw(8) << left << fixed << setprecision(2) << -121.0 << endl;
     cout << setw(2) << left << showpos << fixed << setprecision(0) << 1.00;
+=======
+   
+    cout << setw(8) << right << showpos << 235 << noshowpos << endl;
+    cout << hex << 2209 << endl;
+    cout << setw(8) << left << fixed << setprecision(2) << -121.0 << endl;
+ 
+>>>>>>> Smells_like_Teen_spirit
     cout << showpos << 4.00 << cout << "String1\n\tString2\n\t\tString3" << endl;
     cout << "\tString1\nString2" << endl noshowpos << endl;
     sing namespace std;
 int main()
 {
     cout << setw(8) << right << showpos << 4 << noshowpos <<endl;
+<<<<<<< HEAD
     cout << setw(16) << internal << fixed << setprecision(2) << -67.091sing namespace std;
+=======
+  
+>>>>>>> Smells_like_Teen_spirit
 int main() cout << "String1\n\tString2\n\t\tString3" << endl;
     cout << "\tString1\nString2" << endl
 {
     cout << setw(8) << right << showpos << 4 << noshowpos <<endl;
+<<<<<<< HEAD
     cout << setw(16) << internal << fixed << setprecision(2) << -67.091sing namespace std;
+=======
+  
+>>>>>>> Smells_like_Teen_spirit
 int main() cout << "String1\n\tString2\n\t\tString3" << endl;
     cout << "\tString1\nString2" << endl
 {
