@@ -1,0 +1,34 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() //////// комент
+{ const int n=10;
+  int a[n] = {5, 8, 77, 10, 8};
+  srand(time(NULL));
+  for(int i =0; i<n; i++)
+  //cin >> a[i]; 
+  a[i] = rand()%20 -10;
+  for(int i =0; i<n; i++)
+ cout << setw(5) << a[i];
+ int cum = 0;
+    for(int i =0; i<n; i++) {
+     if (a[i]>5) {
+    cum += a[i];
+     }
+    } ///// коментар
+   cout << "\nEnter k =" << cum << endl;
+ const int c=10;
+  int b[c] = {3, 9, 57, 10, 8};
+for(int i =0; i<c; i++){
+  b[i] = rand()%100 -1;
+  cout << setw(5) << b[i];
+}
+  int k =0; 
+ for(int i =0; i<c; i++){
+ if(b[i] % c == 0){
+    k++;
+ } 
+ }
+  cout << "\nEnter k =" << k << endl;
+    return 0;
+}
