@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{ const int n=10;
+  int a[n] = {5, 8, 77, 10, 8};
+  srand(time(NULL));
+  for(int i =0; i<n; i++)
+   cout << "\nEnter k =" << cum << endl;
+  const int c=2;
+  int b[c];
+  for(int i =0; i<c; i++){
+cin>> b[i];
