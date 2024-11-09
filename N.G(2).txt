@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-int main()
+int main() //////// комент
 { const int n=10;
   int a[n] = {5, 8, 77, 10, 8};
   srand(time(NULL));
@@ -15,7 +15,7 @@ int main()
      if (a[i]>5) {
     cum += a[i];
      }
-    }
+    } ///// коментар
    cout << "\nEnter k =" << cum << endl;
  const int c=10;
   int b[c] = {3, 9, 57, 10, 8};
