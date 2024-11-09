@@ -7,7 +7,11 @@ int main()
 #include <iomanip>
 using namespace std;
 int main()
-{
+{   if 
+for
+if 
+while
+DO-WHILE
     
     cout << showpos << 4.00 << noshowpos << endl;
     
@@ -24,9 +28,7 @@ int main()
 {
     cout << setw(8) << right << showpos << 4 << noshowpos <<endl;
     cout << setw(16) << internal << fixed << setprecision(2) << -67.09124 << endl;
-    cout << setw(8) << right << showpos << 235 << noshowpos << endl;
-    cout << hex << 2209 << endl;
-    cout << setw(8) << left << fixed << setprecision(2) << -121.0 << endl;
+  
     cout << setw(2) << left << showpos << fixed << setprecision(0) << 1.00;
     cout << showpos << 4.00 << noshowpos << endl;
     
@@ -38,7 +40,7 @@ int main()
 }
 
     cout << hex << 2209 << endl;
-    cout << setw(8) << left << fixed << setprecision(2) << -121.0 << endl;
+    c
     cout << setw(2) << left << showpos << fixed << setprecision(0) << 1.00;
     cout << showpos << 4.00 << noshowpos << endl;
     
