@@ -14,10 +14,6 @@ while(x<=x2+h/2){
 y = pow(x, 3) + 3*pow(sin(x),2)- 3;
     cout << setw(10) << x << setw(15) << y << endl;
     x+=h;
-}
-cout << "************DO-WHILE*********" << endl;
-x = x1;
-do{
     y =pow(x,3)+ 3*pow(sin(x),2)- 3;
     cout << setw(10) << x << setw(15) << y << endl;
     x+=h;

@@ -11,8 +11,11 @@ int main()
     if ((x+5)>0 && c!=0 && x!=0) f = (x-a)/(x);
     else
     if (c==0 && c!=4) f = (10*x)/(c - 4);
+if ((x+5)<0 && c==0 && (a*x)>0) f = (1)/(a*x) - b;
     else f_=false;
     if (f_==false) cout << "F is not defined \n";
+if ((x+5)<0 && c==0 && (a*x)>0) f = (1)/(a*x) - b;
     else cout <<"F =" << f;
     return 0;
+if ((x+5)<0 && c==0 && (a*x)>0) f = (1)/(a*x) - b;if ((x+5)<0 && c==0 && (a*x)>0) f = (1)/(a*x) - b;
 }

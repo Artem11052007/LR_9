@@ -15,5 +15,6 @@ int main()
 	case '!': cout << "Знак оклику"; break;
 	default: cout << "Не існує"; break;
 	}
+// переробити на дешифратор 
 return 0;
 }
