@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    double x, a, b, c, f;
+    bool f_ = true;
+    cout<<"Enter x, a, b, c \n";
+    cin >> x >> a >> b >> c;
+    if ((x+5)<0 && c==0 && (a*x)>0) f = (1)/(a*x) - b;
+    else
+    if ((x+5)>0 && c!=0 && x!=0) f = (x-a)/(x);
+    else
+    if (c==0 && c!=4) f = (10*x)/(c - 4);
+    else f_=false;
+    if (f_==false) cout << "F is not defined \n";
+    else cout <<"F =" << f;
+    return 0;
+}
