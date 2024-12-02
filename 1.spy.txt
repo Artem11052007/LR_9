@@ -2,6 +2,9 @@
 #include <iomanip>
 using namespace std;
 int main() //////// комент
+int const a[a][b];
+for(int i =0; 1<9; i++);
+if(a[a][b]>5) a++;
 { const int n=10;
   int a[n] = {5, 8, 77, 10, 8};
   srand(time(NULL));
@@ -17,7 +20,9 @@ int main() //////// комент
   int k =0; 
  for(int i =0; i<c; i++){
  if(b[i] % c == 0){
-   
+   for(int i =0; i<n; i++) {
+     if (a[i]>5) {
+    cum += a[i];
  } 
  }
   cout << "\nEnter k =" << k << endl;
