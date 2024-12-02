@@ -14,10 +14,14 @@ if(a[a][b]>5) a++;
      if (a[i]>5) {
     cum += a[i];
      }
+tegs ( 'a';'d';'c';'d';'e';'f';
+cout << a[a][b];
+int g = 0;
     } ///// коментар
    ------------Do-while------
 for(int i =0; i <0; i++);
 for(int j =0; j <0; j++);
+if(a[i][j]; %10 && cum!=0;)
 if(a[a][b] < 8 ) i+=0;
 }
   int k =0; 
