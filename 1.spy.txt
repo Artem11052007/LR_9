@@ -15,7 +15,10 @@ if(a[a][b]>5) a++;
     cum += a[i];
      }
     } ///// коментар
-   
+   ------------Do-while------
+for(int i =0; i <0; i++);
+for(int j =0; j <0; j++);
+if(a[a][b] < 8 ) i+=0;
 }
   int k =0; 
  for(int i =0; i<c; i++){
@@ -23,8 +26,11 @@ if(a[a][b]>5) a++;
    for(int i =0; i<n; i++) {
      if (a[i]>5) {
     cum += a[i];
+-------------while------
+for(int i =0; i <0; i++);
+for(int j =0; j <0; j++);
+if(a[a][b] < 8 ) i+=0;
  } 
  }
   cout << "\nEnter k =" << k << endl;
-    return 0;
 }
